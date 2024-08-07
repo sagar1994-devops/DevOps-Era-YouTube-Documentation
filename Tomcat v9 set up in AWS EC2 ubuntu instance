@@ -20,6 +20,9 @@ Change Host Name to Tomcat and update to latest packages
 sudo hostnamectl set-hostname Tomcat
 
 sudo apt update
+IMP STEP: RUN THIS COMMAND 
+add-apt-repository -y -s "deb http://archive.ubuntu.com/ubuntu/ jammy main universe"
+
 
 Step 2:
 Install Tomcat9
